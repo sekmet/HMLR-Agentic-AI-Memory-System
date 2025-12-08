@@ -16,7 +16,6 @@ from core.models import ConversationResponse, ResponseStatus
 from memory.models import Intent, QueryType
 from memory.retrieval.lattice import LatticeRetrieval, TheGovernor
 from memory.retrieval.hmlr_hydrator import Hydrator
-from memory.tabula_rasa import TabulaRasa
 # LLMMetadataExtractor no longer needed - nano prompting handles metadata better
 
 
